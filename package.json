@@ -1,20 +1,8 @@
 {
   "name": "buddyfit-tizenbrew",
   "version": "0.1.0",
-  "description": "TizenBrew module: Buddyfit web app on older Samsung Tizen TVs",
   "main": "buddyfit.js",
   "packageType": "mods",
   "appName": "Buddyfit",
-  "websiteURL": "https://app.buddyfit.club/it/login",
-  "serviceFile": "service.js",
-  "keys": [
-    "MediaPlay",
-    "MediaPause",
-    "MediaPlayPause",
-    "MediaStop",
-    "MediaFastForward",
-    "MediaRewind"
-  ],
-  "author": "Marco",
-  "license": "MIT"
+  "websiteURL": "https://app.buddyfit.club"
 }
