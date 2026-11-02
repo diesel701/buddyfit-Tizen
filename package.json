@@ -6,6 +6,7 @@
   "packageType": "mods",
   "appName": "Buddyfit",
   "websiteURL": "https://app.buddyfit.club/it/login",
+  "serviceFile": "service.js",
   "keys": [
     "MediaPlay",
     "MediaPause",
@@ -14,5 +15,6 @@
     "MediaFastForward",
     "MediaRewind"
   ],
+  "author": "Marco",
   "license": "MIT"
 }
