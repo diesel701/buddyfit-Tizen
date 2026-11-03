@@ -1,8 +1,22 @@
 {
   "name": "buddyfit-tizenbrew",
   "version": "0.1.0",
+  "description": "Buddyfit for old Tizen TVs",
   "main": "buddyfit.js",
-  "packageType": "mods",
-  "appName": "Buddyfit",
-  "websiteURL": "https://app.buddyfit.club"
+  "author": "diesel701",
+  "license": "MIT",
+  "tizenbrew": {
+    "packageType": "mods",
+    "appName": "Buddyfit",
+    "websiteURL": "https://app.buddyfit.club",
+    "main": "buddyfit.js",
+    "keys":[
+      "MediaPlayPause",
+      "MediaPlay",
+      "MediaPause",
+      "MediaStop",
+      "MediaRewind",
+      "MediaFastForward"
+    ]
+  }
 }
