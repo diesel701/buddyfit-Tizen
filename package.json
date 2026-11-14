@@ -6,7 +6,7 @@
   "appName": "Buddyfit",
   "description": "Buddyfit for old Tizen TVs",
   "packageType": "mods",
-  "websiteURL": "https://app.buddyfit.club",
+  "websiteURL": "https://help.buddyfit.club/hc/en-001/articles/21422098796956-Using-Buddyfit-on-TV",
   "repository": {
     "url": "https://github.com/diesel701/buddyfit-Tizen"
   },
