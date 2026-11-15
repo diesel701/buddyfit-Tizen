@@ -1,23 +1,19 @@
 {
-  "name": "buddyfit-tizenbrew",
+  "name": "buddyfit-tizenbrew-launcher",
   "version": "0.1.0",
-  "main": "buddyfit.js",
-  "author": "diesel701",
-  "appName": "Buddyfit",
-  "description": "Buddyfit for old Tizen TVs",
-  "packageType": "mods",
-  "websiteURL": "https://help.buddyfit.club/hc/en-001/articles/21422098796956-Using-Buddyfit-on-TV",
-  "repository": {
-    "url": "https://github.com/diesel701/buddyfit-Tizen"
-  },
-  "keys":[
-      "MediaPlayPause",
-      "MediaPlay",
-      "MediaPause",
-      "MediaStop",
-      "MediaRewind",
-      "MediaFastForward",
-      "MediaTrackNext",
-      "MediaTrackPrevious"
-    ]
+  "description": "TizenBrew app module: local launcher page that opens Buddyfit",
+  "packageType": "app",
+  "appName": "Buddyfit Launcher",
+  "appPath": "index.html",
+  "serviceFile": "service.js",
+  "keys": [
+    "MediaPlay",
+    "MediaPause",
+    "MediaPlayPause",
+    "MediaStop",
+    "MediaFastForward",
+    "MediaRewind"
+  ],
+  "author": "Marco",
+  "license": "MIT"
 }

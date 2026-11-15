@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Buddyfit Launcher</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html, body { margin: 0; height: 100%; background: #111; color: #fff;
+    font-family: sans-serif; }
+  body { display: flex; flex-direction: column; align-items: center;
+    justify-content: center; text-align: center; }
+  h1 { font-size: 48px; margin: 0 0 24px; }
+  p { font-size: 28px; margin: 8px 0; }
+  a { color: #4fc3f7; font-size: 32px; padding: 12px 24px;
+    border: 2px solid #4fc3f7; border-radius: 8px; text-decoration: none;
+    margin-top: 24px; }
+</style>
+</head>
+<body>
+  <h1>Buddyfit</h1>
+  <p>Il launcher e' partito correttamente.</p>
+  <p id="msg">Apertura tra 4 secondi...</p>
+  <a id="go" href="https://app.buddyfit.club/it/login">Apri Buddyfit ora</a>
+<script>
+(function () {
+  var URL = 'https://app.buddyfit.club/it/login';
+  var left = 4;
+  var msg = document.getElementById('msg');
+  var t = setInterval(function () {
+    left -= 1;
+    if (left > 0) {
+      msg.textContent = 'Apertura tra ' + left + ' secondi...';
+    } else {
+      clearInterval(t);
+      msg.textContent = 'Apertura in corso...';
+      window.location.href = URL;
+    }
+  }, 1000);
+})();
+</script>
+</body>
+</html>
